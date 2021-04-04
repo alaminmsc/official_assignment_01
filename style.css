@@ -89,11 +89,12 @@ a{
 
 }
 .light42{
-    background-color: red;
-    width: 400px;
+    background-color:#CDB30D;
+    width: 350px;
     position: absolute;
-    left: 550px;
-    bottom:100px;
+    left: 650px;
+    bottom:70px;
+    padding: 10px;
 
 }
 
@@ -104,17 +105,29 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 280px;
 }
 
+.portfolio{
+    height: 1200px;
+    position: relative;
+}
+.portfolio_photo{
+    position: absolute;
+    left: 175px;
+    top: 260px;
+    
+}
 .footer_section{
     position: relative;
 
 }
 .newsletter{
-    background-image: url('/images/bg_1.jpg');
-    background-attachment: fixed;
+    background-image: url('/images/bg_4.jpg');
+    background-position-y: 50%;
+    background-size: cover;
     position: absolute;
     top: -150px;
     left: 200px;
+    border-radius: 10px;
+
 }
