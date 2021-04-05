@@ -9,25 +9,33 @@ a{
     text-decoration: none;
 }
 .main{
-    background-color: blueviolet;
+    
 }
 .mid{
     width: 1200px;
     margin: auto;
+    
 }
 .header-section{
-    height: 800px;
-    background-color: rgb(226, 43, 122);
+    height: 750px;
     margin-bottom: 50px;
+  
 }
 .header-contact{
-    width: 1200px; 
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 5px 0px;
+    z-index: 25;
+    color: yellow;
+    position: absolute;
+
 }
 .header-menu-section{
-    background-color: cornflowerblue;
+    background-color:#d0d0da;
+    /* position:fixed;
+    top:50px !important;
+    right:0px;
+    left:0px;
+    bottom:0px;
+    z-index:20; */
 }
 .header-menu {
     width: 1250px;
@@ -44,9 +52,62 @@ a{
     font-size: 20px;
 }
 
+
+/*carosel*/
+.slider{
+
+    position: absolute;
+    top: -110px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+.caroselOne{
+    background-image: url('images/bg_1.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-size: cover;
+    height: 310px;
+    
+}
+.caroselTwo{
+    background-image: url('images/bg_2.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-size: cover;
+    height: 310px;
+}
+
+
+.owl-dots{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    margin: auto !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 80px 7px;
+    background: #bd9d9d;
+    color: salmon;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    border: 2px solid yellow;
+}
+.owl-dot.active span{
+    background: red !important;
+}
+
+
 /* service_section */
 .service-section{
-    background-image: url('/images/service.jpg');
+    background-image: url('images/service.jpg');
     margin: auto;
 }
 .service{
@@ -101,7 +162,7 @@ a{
 
 /* counter-section */
 .counter-section{
-    background-image: url('/images/bg_4.jpg');
+    background-image: url('images/bg_4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -122,7 +183,7 @@ a{
 
 }
 .newsletter{
-    background-image: url('/images/bg_4.jpg');
+    background-image: url('images/bg_4.jpg');
     background-position-y: 50%;
     background-size: cover;
     position: absolute;

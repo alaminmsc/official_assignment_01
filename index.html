@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>EROO</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <title>EROO</title>
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,16 +19,17 @@
 
         <!--Start Header Section-->
         <div class="header-section">
+
             <div class="header-contact">
-                <div style="display: flex; justify-content: space-between;">
+                <div style="display: flex; justify-content: space-between; width: 1200px; margin: auto; padding-left: 200px;">
                     <div>
-                        <p>Phone no: +001234567 or email us: emailsample@email.com</p>
+                        <p style="color: #fff;">Phone no: +001234567 or email us: emailsample@email.com</p>
                     </div>
                     <div>
-                        <i class="fab fa-facebook-f" style="padding-left:15px;"></i>
-                        <i class="fab fa-twitter" style="padding-left:15px;"></i>
-                        <i class="fab fa-instagram" style="padding-left:15px;"></i>
-                        <i class="fab fa-dribbble" style="padding-left:15px;"></i>
+                        <i class="fab fa-facebook-f" style="padding-left:15px; color: #fff;"></i>
+                        <i class="fab fa-twitter" style="padding-left:15px; color: #fff;"></i>
+                        <i class="fab fa-instagram" style="padding-left:15px; color: #fff;"></i>
+                        <i class="fab fa-dribbble" style="padding-left:15px;color: #fff;"></i>
                     </div>
                 </div>
 
@@ -33,23 +37,59 @@
 
             <div class="header-menu-section">
                 <div class="header-menu">
-                    <a href="#" style="padding:30px;">EROO</h1></a>
+                    <a href="#" style="padding:30px;" class="a">EROO</h1></a>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#home" style="color: chocolate;" >Home</a></li>
+                        <li><a href="#about" style="color: white;" class="a">About</a></li>
+                        <li><a href="#pricing" style="color: white;" class="a">Pricing</a></li>
+                        <li><a href="#blog" style="color: white;" class="a">Blog</a></li>
+                        <li><a href="#contact" style="color: white;" class="a">Contact</a></li>
                     </ul>
                 </div>
             </div>
 
+            <!--Carosel Part-->
+            <div class="owl-carousel owl-theme slider" style="margin-top: 100px;">
+                <div class="item caroselOne" style="padding: 250px 0px;">
+                    <div style="width: 1200px; margin: auto;">
+                        <div>
+                            <h1>Welcome to erro</h1>
+                            <h1>DIGITAL ANNOVATION<br>
+                                COMPANY THAT CREATES<br>
+                                SOLUTION
+                            </h1>
+                            <h3>Far far away, behind the word mountais, far from the countries Vokalia and <br>
+                            Consonatia, there live the blind texts</h3>
 
+                            <div>
+                                <button>GET STARTED</button>
+                                <button>VIEW PORTFOLIO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item caroselTwo"  style="padding: 250px 0px;">
+                    <div style="width: 1200px; margin: auto;">
+                        <div>
+                            <h1>Welcome to erro TWO</h1>
+                            <h1>DIGITAL ANNOVATION<br>
+                                COMPANY THAT CREATES<br>
+                                SOLUTION
+                            </h1>
+                            <h3>Far far away, behind the word mountais, far from the countries Vokalia and <br>
+                            Consonatia, there live the blind texts</h3>
 
-            <div class="header-bg">
-                <h1>Will be carosel</h1>
-
+                            <div>
+                                <button>GET STARTED</button>
+                                <button>VIEW PORTFOLIO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+       
             </div>
+
+
 
         </div>
         <!--End Header Section-->
@@ -500,8 +540,12 @@
     </div>
 
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
     <script src="script.js"></script>
+    
+    
 
 </body>
 
