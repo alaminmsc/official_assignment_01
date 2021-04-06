@@ -17,14 +17,16 @@ a{
     
 }
 .header-section{
-    height: 750px;
+    height: 1200px !important;
     margin-bottom: 50px;
+    background-color: blue;
   
 }
 .header-contact{
     padding: 5px 0px;
     z-index: 25;
     color: yellow;
+    top: 0;
     position: absolute;
 
 }
@@ -192,3 +194,71 @@ a{
     border-radius: 10px;
 
 }
+
+/* imgage overlay */
+.staff-1{
+    position: relative;
+}
+/* .staff-1:hover .position{
+    display: block;
+}
+
+.staff-1:hover .social-link{
+    display: block;
+} */
+
+.position{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.social-link{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.staff-2{
+    position: relative;
+}
+/* .staff-1:hover .position{
+    display: block;
+}
+
+.staff-1:hover .social-link{
+    display: block;
+} */
+
+.position-2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.social-link-2{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
