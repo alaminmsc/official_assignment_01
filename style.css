@@ -223,16 +223,11 @@ a{
     right: 0;
 }
 
+
 .staff-2{
     position: relative;
 }
-/* .staff-1:hover .position{
-    display: block;
-}
 
-.staff-1:hover .social-link{
-    display: block;
-} */
 
 .position-2{
     display: none;
@@ -250,15 +245,193 @@ a{
     right: 0;
 }
 
+/* staff-3 */
+.staff-3{
+    position: relative;
+}
 
 
+.position-3{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.social-link-3{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* staff-4 */
+.staff-4{
+    position: relative;
+}
 
 
+.position-4{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.social-link-4{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 
+/* staff-5 */
+.staff-5{
+    position: relative;
+}
 
 
+.position-5{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
+.social-link-5{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/* portfolio photo */
+.portfolio-1{
+    position: relative;
+}
+.portfolio-up{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 185px;
+}
+.project-icon{
+    display: none;
+    position: absolute;
+    top: 185px;
+    right: 0;
+    left: 0;
+}
+
+/* portfolio photo -2*/
+.portfolio-2{
+    position: relative;
+}
+.portfolio-up-2{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 185px;
+}
+.project-icon-2{
+    display: none;
+    position: absolute;
+    top: 185px;
+    right: 0;
+    left: 0;
+}
+
+/* portfolio photo -3*/
+.portfolio-3{
+    position: relative;
+}
+.portfolio-up-3{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 185px;
+}
+.project-icon-3{
+    display: none;
+    position: absolute;
+    top: 185px;
+    right: 0;
+    left: 0;
+}
+
+/* portfolio photo -4*/
+.portfolio-4{
+    position: relative;
+}
+.portfolio-up-4{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 185px;
+}
+.project-icon-4{
+    display: none;
+    position: absolute;
+    top: 185px;
+    right: 0;
+    left: 0;
+}
+
+/* portfolio photo -5*/
+.portfolio-5{
+    position: relative;
+}
+.portfolio-up-5{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 185px;
+}
+.project-icon-5{
+    display: none;
+    position: absolute;
+    top: 185px;
+    right: 0;
+    left: 0;
+}
+
+/* portfolio photo -6*/
+.portfolio-6{
+    position: relative;
+}
+.portfolio-up-6{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 185px;
+}
+.project-icon-6{
+    display: none;
+    position: absolute;
+    top: 185px;
+    right: 0;
+    left: 0;
+}
 
 
 
