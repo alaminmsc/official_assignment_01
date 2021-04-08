@@ -156,6 +156,10 @@ $('.owl-carousel').owlCarousel({
     animateOut: 'fadeOut'
 })
 
+
+//portfolio
+
+
 //Counter 
 
 $('.count').counterUp({
@@ -292,4 +296,53 @@ $('.portfolio-6').hover(function(){
 
 $('.portfolio-6').mouseleave(function(){
     $('.project-icon-6').css("display","none");
+})
+
+
+
+
+// var acordianHideShow = document.querySelectorAll('#acordian_hideQestion');
+//     acordianHideShow.addEventListener('click',accordian());
+    
+    
+//     function accordian(){     
+//         var x = document.querySelectorAll("#acordian-hidesection");
+//         if (x.style.display === "none") {
+//           x.style.display = "block";
+//           document.querySelectorAll("#iconSHow").style.transform = "rotate(180deg)";
+//           document.querySelectorAll('#acordian_hideQestion').style.backgroundColor='yellow';
+//           document.querySelectorAll('#icon-acor').style.color='white';
+//         } else {
+//           x.style.display = "none";
+//           document.querySelectorAll("#iconSHow").style.transform = "rotate(0deg)";
+//           document.querySelectorAll('#acordian_hideQestion').style.backgroundColor='white';
+//           document.querySelectorAll('#icon-acor').style.color='red';
+
+//         }
+//     }
+$('.acordian_hideQestion').click(function(){
+    $('.acordian_hideQestion').css('backgroundColor',"yellow");
+    $('.acordian-hidesection').toggle();
+})
+
+$('.acordian_hideQestion-2').click(function(){
+    $('.acordian_hideQestion-2').css('backgroundColor',"yellow");
+    $('.acordian-hidesection-2').toggle();
+
+})
+
+$('.acordian_hideQestion-3').click(function(){
+    $('.acordian_hideQestion-3').css('backgroundColor',"yellow");
+    $('.acordian-hidesection-3').toggle();
+
+})
+$('.acordian_hideQestion-4').click(function(){
+    $('.acordian_hideQestion-4').css('backgroundColor',"yellow");
+    $('.acordian-hidesection-4').toggle();
+
+})
+
+$('.acordian_hideQestion-5').click(function(){
+    $('.acordian_hideQestion-5').css('backgroundColor',"yellow");
+    $('.acordian-hidesection-5').toggle();
 })
