@@ -148,8 +148,18 @@ $('.staff-5').mouseleave(function(){
 
 //
 
-$('.owl-carousel').owlCarousel({
+$('.head-carosel .owl-carousel').owlCarousel({
     items:1,
+    autoplay:true,
+    autoplayTimeout:2000,
+    loop:true,
+    animateOut: 'fadeOut'
+})
+
+
+
+$('.testomonial-carosel .owl-carousel').owlCarousel({
+    items:3,
     autoplay:true,
     autoplayTimeout:2000,
     loop:true,
@@ -300,26 +310,6 @@ $('.portfolio-6').mouseleave(function(){
 
 
 
-
-// var acordianHideShow = document.querySelectorAll('#acordian_hideQestion');
-//     acordianHideShow.addEventListener('click',accordian());
-    
-    
-//     function accordian(){     
-//         var x = document.querySelectorAll("#acordian-hidesection");
-//         if (x.style.display === "none") {
-//           x.style.display = "block";
-//           document.querySelectorAll("#iconSHow").style.transform = "rotate(180deg)";
-//           document.querySelectorAll('#acordian_hideQestion').style.backgroundColor='yellow';
-//           document.querySelectorAll('#icon-acor').style.color='white';
-//         } else {
-//           x.style.display = "none";
-//           document.querySelectorAll("#iconSHow").style.transform = "rotate(0deg)";
-//           document.querySelectorAll('#acordian_hideQestion').style.backgroundColor='white';
-//           document.querySelectorAll('#icon-acor').style.color='red';
-
-//         }
-//     }
 $('.acordian_hideQestion').click(function(){
     $('.acordian_hideQestion').css('backgroundColor',"yellow");
     $('.acordian-hidesection').toggle();

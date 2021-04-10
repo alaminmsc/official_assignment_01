@@ -17,10 +17,7 @@ a{
     
 }
 .header-section{
-    height: 1200px !important;
-    margin-bottom: 50px;
-    background-color: blue;
-  
+    margin-bottom: 50px; 
 }
 .header-contact{
     padding: 5px 0px;
@@ -31,7 +28,8 @@ a{
 
 }
 .header-menu-section{
-    background-color:#d0d0da;
+    background-color:hsl(240, 4%, 79%);
+   
     /* position:fixed;
     top:50px !important;
     right:0px;
@@ -40,7 +38,7 @@ a{
     z-index:20; */
 }
 .header-menu {
-    width: 1250px;
+    width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -62,6 +60,7 @@ a{
     left: 0;
     right: 0;
     margin: auto;
+    
 }
 
 .portSlider{
@@ -76,6 +75,7 @@ a{
     background-size: cover;
     height:100%;
     
+    
 }
 .caroselTwo{
     background-image: url('images/bg_2.jpg');
@@ -83,6 +83,7 @@ a{
     background-position-y: 40%;
     background-size: cover;
     height:100%;
+    
 }
 
 
@@ -98,15 +99,39 @@ a{
     height: 15px;
     margin: 80px 7px;
     background: #bd9d9d;
-    color: salmon;
     display: block;
     transition: opacity .2s ease;
     border-radius: 30px;
-    border: 2px solid yellow;
+    border: 3px solid rgb(184, 180, 180);
+    background-color: white;
 }
 .owl-dot.active span{
-    background: red !important;
+    background: gray!important;
 }
+
+.testomonial-carosel{
+    position: relative;
+}
+.testomonial-carosel .owl-dots{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+
+}
+
+.testomonial-carosel .owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 80px 7px;
+    background: white;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    background-color: yellow;
+}
+
 
 
 /* service_section */
@@ -117,7 +142,7 @@ a{
 .service{
     width: 250px;
     height: 230px;
-    background-color: black;
+    background-color: #232429;
     margin: 10px;
     border-radius: 5px;
     color: white;
@@ -132,8 +157,8 @@ a{
 .serviceIcon{
     width: 50px;
     height: 50px;
-    background-color: red;
-    border: 1px solid yellow;
+    background-color: #232429;
+    border: 2px solid #CCB20C;
     border-radius: 50%;
     position: absolute;
     top: 200px;
@@ -144,10 +169,13 @@ a{
 .service:hover{
     width: 250px;
     height: 230px;
-    background-color: yellow;
+    background-color: #CCB20C;
     margin: 10px;
     border-radius: 5px;
-    color: white;
+    color: black;
+}
+.service:hover .servicePhoto{
+    color: black !important;
 }
 .about{
     position: relative;
@@ -186,6 +214,12 @@ a{
     position: relative;
 
 }
+
+
+.recentpostOne{
+
+}
+
 .newsletter{
     background-image: url('images/bg_4.jpg');
     background-position-y: 50%;
