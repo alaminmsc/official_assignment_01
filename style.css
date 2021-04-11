@@ -30,12 +30,6 @@ a{
 .header-menu-section{
     background-color:hsl(240, 4%, 79%);
    
-    /* position:fixed;
-    top:50px !important;
-    right:0px;
-    left:0px;
-    bottom:0px;
-    z-index:20; */
 }
 .header-menu {
     width: 1200px;
@@ -216,9 +210,6 @@ a{
 }
 
 
-.recentpostOne{
-
-}
 
 .newsletter{
     background-image: url('images/bg_4.jpg');
@@ -235,13 +226,7 @@ a{
 .staff-1{
     position: relative;
 }
-/* .staff-1:hover .position{
-    display: block;
-}
 
-.staff-1:hover .social-link{
-    display: block;
-} */
 
 .position{
     display: none;

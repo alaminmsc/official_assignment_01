@@ -308,7 +308,7 @@ $('.portfolio-6').mouseleave(function(){
     $('.project-icon-6').css("display","none");
 })
 
-
+//Accordion section
 
 $('.acordian_hideQestion').click(function(){
     $('.acordian_hideQestion').css('backgroundColor',"yellow");
